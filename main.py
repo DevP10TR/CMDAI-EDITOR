@@ -42,8 +42,12 @@ except Exception:
 
 def main():
 
-    from editor.core.workspace import projects_root
-    from editor.ui.project_picker import ProjectPicker
+    try:
+        from editor.core.workspace import projects_root
+        from editor.ui.project_picker import ProjectPicker
+    except Exception:
+        from core.workspace import projects_root
+        from ui.project_picker import ProjectPicker
 
     flagi, pozycyjne = set(), []
     for arg in sys.argv[1:]:
