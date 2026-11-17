@@ -2,7 +2,6 @@
   <img src="assets/banner.png" alt="CMDAI EDITOR" width="100%" />
 
   <p align="center">
-    <a href="#"><img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6.svg?style=flat-square&logo=windows" alt="Platform: Windows"></a>
     <a href="#"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square&logo=python" alt="Python 3.10+"></a>
     <a href="#"><img src="https://img.shields.io/badge/UI-Textual%20TUI-purple.svg?style=flat-square" alt="Textual TUI"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT"></a>
